@@ -11,9 +11,9 @@ public class GameOfLife {
 		String fileName = args[0];
 		//// Uncomment the test that you want to execute, and re-compile.
 		//// (Run one test at a time).
-		test1(fileName);
-		test2(fileName);
-		test3(fileName, 3);
+		// test1(fileName);
+		// test2(fileName);
+		// test3(fileName, 3);
 		play(fileName);
 	}
 	
@@ -146,7 +146,7 @@ public class GameOfLife {
     public static void print(int[][] arr) {
 		for(int i = 1; i < arr.length - 1; i++) {
 			for (int j = 1; j < arr[i].length - 1; j++) {
-				System.out.printf("%4s", arr[i][j]);
+				System.out.printf("%3s", arr[i][j]);
 			}
 			System.out.println();
 		}
